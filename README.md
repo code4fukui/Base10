@@ -1,6 +1,6 @@
 # Base10
 
-Base10 is a codec by decimal
+Base10 is an encoding using a decimal number
 
 ## sample app
 
