@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<script type="module">
+import { Base10 } from "./Base10.js";
+
+onload = () => {
+  enc.onclick = () => {
+    b10.value = Base10.encode(new TextEncoder().encode(txt.value));
+  };
+  dec.onclick = () => {
+    txt.value = new TextDecoder().decode(Base10.decode(b10.value));
+  };
+};
+</script>
+<style>
+textarea {
+  margin: .5em 0;
+  width: 80vw;
+  height: 6em;
+}
+button {
+  margin-right: .5em;
+}
+</style>
+</head><body>
+<h1>base10 encoder/decoder</h1>
+<textarea id=txt></textarea><br>
+<button id="enc">↓enc</button><button id="dec">↑dec</button><br>
+<textarea id=b10></textarea><br>
+
+<a href=https://github.com/code4fukui/Base10/>src on GitHub</a><br>
+</body></html>

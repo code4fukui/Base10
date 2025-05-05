@@ -1,0 +1,8 @@
+<script type="module">
+import { Base10 } from "./Base10.js";
+const bin = new Uint8Array([1, 2, 3, 4, 5]);
+const s = Base10.encode(bin);
+console.log(s);
+const test = Base10.decode(s);
+console.log(test);
+</script>
