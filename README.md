@@ -1,5 +1,7 @@
 # Base10
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Base10 is an encoding using a decimal number.
 
 ## Demo
