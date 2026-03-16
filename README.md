@@ -21,4 +21,4 @@ console.log(Base10.decode("16973567"));
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
